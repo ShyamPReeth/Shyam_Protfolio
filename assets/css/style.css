@@ -56,6 +56,8 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   z-index: 997;
   overflow-y: auto;
+  justify-content: center;
+  text-align: center;
 }
 
 #header * {
@@ -97,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .social-links {
   margin-top: 40px;
   display: flex;
+  justify-content: center;
 }
 
 #header .social-links a {
@@ -148,6 +151,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  justify-self: center;
+  align-items: center;
 }
 
 .nav-menu li + li {
